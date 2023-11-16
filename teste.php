@@ -24,8 +24,10 @@ fetch("https://siteaprendizado.000webhostapp.com/gerenciador-arquivos/Site1.json
   .catch((error) => {
      const teste = document.getElementById("teste");
      teste.value = error;
-?>
+
     });
 
   
   </script>
+?>
+
