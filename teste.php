@@ -1,4 +1,4 @@
-
+<?php
 <p id="demo">
 </p>
 <textarea id="retorno" rows="10" cols="50" style="width:49%;"></textarea>
@@ -24,7 +24,7 @@ fetch("https://siteaprendizado.000webhostapp.com/gerenciador-arquivos/Site1.json
   .catch((error) => {
      const teste = document.getElementById("teste");
      teste.value = error;
-
+?>
     });
 
   
