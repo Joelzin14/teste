@@ -1,22 +1,3 @@
-
-const menu = document.getElementsByClassName("ODXihb Hk4XGb")[0];
-// input do button action
-// <li> <input type="button" value="Click here" class="wR3cXd"></li>
-//class="wR3cXd atHn2d"
-var liAction = document.createElement("li");
-var buttonAction = document.createElement("input");
-buttonAction.setAttribute("type","button");
-buttonAction.setAttribute("class","wR3cXd atHn2d");
-buttonAction.setAttribute("value","Click Here")
-buttonAction.setAttribute("id","btn1")
-buttonAction.setAttribute("onclick","joel()")
-liAction.appendChild(buttonAction);
-menu.appendChild(liAction)
-
-// id btn
-const buttonEXT = document.getElementById("btn1");
-
-
 function pegaDados() {
  //const inputName = document.getElementById("nome");
 //const inputTel = document.getElementById("tel");
@@ -37,3 +18,4 @@ var endReal= Ender.textContent;
 //inputEnd.value = endReal
 //const Endereço = //div;
 alert(nomeReal +telReal +endReal)
+}
